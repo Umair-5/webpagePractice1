@@ -1,0 +1,206 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+.nav-ele {
+  margin: 0 auto;
+}
+.nav-ele :hover {
+  color: #9E3FFD;
+}
+
+#first-sec {
+  width: 100%;
+  height: 120vh;
+  background-image: url(/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#first-sec .text {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 40%;
+}
+#first-sec .text h1 {
+  color: #16163F;
+  font-size: 5rem;
+  margin-bottom: 15px;
+}
+#first-sec .text p {
+  font-size: 1.3rem;
+}
+
+.btn {
+  background-color: #9E3FFD;
+  border: none;
+  border-radius: 40px;
+}
+
+#sec-section {
+  background-color: white;
+  color: #16163F;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+}
+#sec-section h4 {
+  color: #9E3FFD;
+  padding: 10vh 0px 10px;
+}
+#sec-section h2 {
+  font-size: 3rem;
+}
+
+.container-one {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+.container-one .plans {
+  height: 50vh;
+  width: 30%;
+}
+.container-one .plans h5 {
+  margin: 20px;
+  font-size: 1.2rem;
+  color: #16163F;
+}
+.container-one .plans i {
+  font-size: 10rem;
+  color: #9E3FFD;
+}
+
+#third-sec {
+  background-color: #16163F;
+  width: 100%;
+  text-align: center;
+  height: 50vh;
+  color: white;
+}
+#third-sec h2 {
+  font-size: 2.5rem;
+  padding: 110px;
+}
+#third-sec ul .circle {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+#third-sec li {
+  display: inline;
+  margin: 0 2vw;
+  font-size: 2rem;
+}
+#third-sec li span {
+  font-size: 3rem;
+}
+
+#about-sec {
+  width: 100%;
+  height: 100vh;
+}
+
+.about-image {
+  background-image: url(/q.png);
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  float: right;
+}
+
+.about {
+  width: 50%;
+  float: left;
+  color: #16163F;
+}
+.about .about-text {
+  width: 60%;
+  margin: 30px auto 0px;
+}
+.about .about-text h4 {
+  color: #9E3FFD;
+}
+.about .about-text h3 {
+  font-size: 2.2rem;
+  margin: 30px 0px;
+}
+
+#map {
+  margin: 5vh 0;
+}
+
+footer {
+  text-align: center;
+  height: 6vh;
+}
+footer .foot-text {
+  margin-top: 3vh;
+  font-size: 1.5rem;
+}
+footer .foot-text a {
+  text-decoration: none;
+  color: #9E3FFD;
+}
+
+@media only screen and (min-device-width: 320px) and (max-width: 480px) {
+  #first-sec .text {
+    width: 80%;
+  }
+  #first-sec .text h1 {
+    font-size: 4rem;
+  }
+  #sec-section {
+    height: 250vh;
+  }
+  #sec-section h2 {
+    font-size: 3rem;
+    margin: 0 6px;
+  }
+  .container-one {
+    flex-direction: column;
+  }
+  .container-one .plans {
+    height: 70vh;
+    width: 100%;
+  }
+  #third-sec {
+    margin-top: 70px;
+    height: 70vh;
+  }
+  #third-sec h2 {
+    font-size: 2.5rem;
+    padding: 110px 30px 60px;
+  }
+  #third-sec ul .circle {
+    display: none;
+  }
+  #third-sec li {
+    display: block;
+    font-size: 1rem;
+  }
+  #third-sec li span {
+    font-size: 2rem;
+  }
+  .about-image {
+    width: 100%;
+    height: 60vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .about {
+    width: 100%;
+  }
+  .about .about-text {
+    width: 90%;
+  }
+}/*# sourceMappingURL=main.css.map */
